@@ -10,5 +10,25 @@ const commands = [
     {
         name : "dotnet watch run",
         desc : "run the current project"
+    },
+    {
+        name: "dotnet ef -h",
+        desc: "see the commands for manage the database"
+    },
+    {
+        name: "dotnet ef migrations add 'migration_name'",
+        desc: "create the new model migration to the current database"
+    },
+    {
+        name: "dotnet ef migrations remove",
+        desc: "remove the current database migrations"
+    },
+    {
+        name: "dotnet ef database update",
+        desc: "connect to the dabase and update according the migrations"
+    },
+    {
+        name: "dotnet add package Swashbuckle.AspNetCore.Filters",
+        desc: "its a package for add security definitions to swagger and for the filters"
     }
 ]
